@@ -437,7 +437,7 @@ class CreditCardUi extends StatelessWidget {
             ? 1
             : width! <= 300
                 ? width! / 300
-                : 1.0,
+                : 1.2,
         child: AnimatedFlippingCard(
           frontSide: frontSide,
           backSide: backSide,
